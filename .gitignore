@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment Variables & Secret credentials
+.env
+backend/.env
+frontend/.env
+.env.local
+.env.*.local
+
+# Production Build Outputs
+dist/
+frontend/dist/
+build/
+out/
+
+# Logs and debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDE configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Uploads directory (user-generated media files should not be committed)
+backend/uploads/*
+!backend/uploads/.gitkeep
