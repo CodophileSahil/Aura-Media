@@ -88,8 +88,9 @@ The server starts listening on `http://localhost:5000`.
 cd ../frontend
 npm install
 npm run dev
-```
 The client dashboard opens on `http://localhost:3000`.
+
+*Note: The React frontend uses a Vite proxy (defined in `vite.config.js`) to route `/api`, `/socket.io`, and `/uploads` requests to the backend server at `http://localhost:5000` to prevent CORS issues and resolve media paths in development.*
 
 ---
 
